@@ -26,8 +26,6 @@ public class ParseZillowGuide {
 			//By the Jsoup.connect method we can get the object from that we get the desired data  
 			
 			//For Flipakart
-			String url;
-			System.out.println("Please enter the URL for which you require the Product Price:");
 			
 			document1 = Jsoup.connect("https://www.flipkart.com/i-kall-k2180/p/itmextf99g7r6cqy?pid=MOBFHVWDPAYJGZFK&lid=LSTMOBFHVWDPAYJGZFKJ5NDJV&marketplace=FLIPKART&srno=b_1_1&otracker=hp_omu_Deals%2Bof%2Bthe%2BDay_3_3.dealCard.OMU_Deals%2Bof%2Bthe%2BDay_HSORBOAPEAPL_3&otracker1=hp_omu_SECTIONED_neo%2Fmerchandising_Deals%2Bof%2Bthe%2BDay_NA_dealCard_cc_3_NA_view-all_3&fm=neo%2Fmerchandising&iid=9a55633d-8ebb-430c-b2f0-13acbdc472de.MOBFHVWDPAYJGZFK.SEARCH&ppt=browse&ppn=browse&ssid=0mvqco9zps0000001591695569044").get();
 			document2 = Jsoup.connect("https://www.flipkart.com/vivo-nex-black-128-gb/p/itmfb4ctja3mgrcz?pid=MOBFB4CTZYDFUTYH&lid=LSTMOBFB4CTZYDFUTYHBEIJP8&fm=neo%2Fmerchandising&iid=M_42f573e9-29d8-4e98-913a-24f63250f97a_20.A8P7313X839X&ppt=hp&ppn=homepage&ssid=l7q1un7ni80000001591695831013&otracker=hp_omu_Best%2BBattery%2BPhones_1_13.dealCard.OMU_Best%2BBattery%2BPhones_A8P7313X839X_10&otracker1=hp_omu_WHITELISTED_neo%2Fmerchandising_Best%2BBattery%2BPhones_NA_dealCard_cc_1_NA_view-all_10&cid=A8P7313X839X").get();
