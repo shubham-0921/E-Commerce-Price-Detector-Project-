@@ -12,7 +12,7 @@ import org.jsoup.select.Elements;
  * This class is used for HTML parsing from URL using Jsoup.
  */
 
-public class ParseZillowGuide {
+public class WebScrapingPricesOfItems {
 	public static void main(String args[]) throws IOException{
 		print("running...");
 		Document document1;
